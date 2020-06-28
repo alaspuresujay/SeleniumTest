@@ -14,7 +14,7 @@ public class Setupdriver {
 	String app_url = propreader.getString("app_url");
 	String driverType = propreader.getString("browserType");
 	
-	static String chromepath = "/src/test/resources/Drivers/chromedriver.exe";
+	static String chromepath = "src/test/resources/Drivers/chromedriver.exe";
 	static String firebasepath = "src/test/resources/Drivers/geckodriver";
 	static String iepath = "write_path_here";
 	

@@ -14,10 +14,6 @@ import com.alm.utils.Setupdriver;
 
 
 
-
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
 	ReadProperty propreader = new ReadProperty("src/main/resources/Config.properties");
@@ -35,9 +31,6 @@ public class AppTest
 	}
 	
 	
-    /**
-     * Rigorous Test :-)
-//     */
     @Test
     public void login()
     {
